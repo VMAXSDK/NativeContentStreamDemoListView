@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                         getPackageName()), null);
 
         /** Initializing vmaxAdView with an Adspot, Repalce With the adspot Configured by you */
-        vmaxAdView = new VmaxAdView(this, "9060b6e3", VmaxAdView.UX_NATIVE);
+        vmaxAdView = new VmaxAdView(this, "f72d4332", VmaxAdView.UX_NATIVE);
 
         VmaxAdSettings vmaxAdSettings = new VmaxAdSettings();
         vmaxAdSettings.setAdmobNativeExpressAdSize(Constants.NativeAdSize.NATIVE_AD_SIZE_FULL_WIDTH, 200);
@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onAdReady(VmaxAdView adView) {
-                Toast.makeText(MainActivity.this, "Ad Cached", Toast.LENGTH_SHORT).show();
+
                 final NativeAd nativeAd = adView.getNativeAd();
                 nativecustomLayout.removeAllViews();
                 if (nativeAd.getNativeAdPartner() != null && nativeAd.getNativeAdPartner().equals(Constants.AdPartner.VMAX_ADMOB) &&
