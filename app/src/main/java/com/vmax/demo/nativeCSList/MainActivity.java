@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        loadNativeInfeed();
+        loadNativeContentStream();
 
     }
 
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /** Method for adding Native ContentStream */
-    public void loadNativeInfeed()
+    public void loadNativeContentStream()
     {
         LayoutInflater inflater = (LayoutInflater)
                 getSystemService(Context.LAYOUT_INFLATER_SERVICE);
