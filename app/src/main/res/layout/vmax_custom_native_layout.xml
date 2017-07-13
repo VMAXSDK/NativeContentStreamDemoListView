@@ -11,6 +11,7 @@
     android:paddingBottom="10dp"
     android:visibility="gone"
     >
+
 <!-- android:background="@drawable/vmax_nativeborder"-->
 
     <ImageView
