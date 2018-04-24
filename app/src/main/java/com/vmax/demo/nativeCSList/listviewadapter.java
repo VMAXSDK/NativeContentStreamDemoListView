@@ -48,6 +48,7 @@ public class listviewadapter extends BaseAdapter {
         View vw;
         TextView textView;
         if (i==4&&theAd!=null)
+
         {
             /** Ad Will be displayed on the fourth position in your list*/
             vw=theAd;
